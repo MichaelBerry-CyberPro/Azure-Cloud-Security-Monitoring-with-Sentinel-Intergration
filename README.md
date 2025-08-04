@@ -36,3 +36,10 @@ Soc Analyst Project
  
 <h2> Step 3: Forwarding Data and KQL</h2>
 <b3>You need to create an Log Analytics Workspace and a Sentinel Instance and connect the two together. While creating these two be these are apart the the same resource group. If you cannot located these two, use the search bar at the top of Azure portal. For the sentinel instance install "Windows Security Events via AMA" Connector. You need to also create Data Collection Rules within sentinel, which fill funnel our event logs.</b3>
+
+<h2>Step 4: Logs and Data</h2>
+Log into the sentinel application and you want to drill down into your instances logs. The first query to run is Securityevents and this will be to see if you have any events populating. I personally had to let my VM run for about 3 hours before any attackers. Let it run for a while and try this query next: 
+
+SecurityEvent
+| where EventID == 4625
+| project Account, IpAddress, EventID **(where you see the pipe that is a new line)**
