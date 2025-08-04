@@ -1,7 +1,7 @@
 # Azure-Cloud-Security-Monitoring-with-Sentinel-Intergration
 Soc Analyst Project 
 
-**Overview: I created a basic home Soc from scratch. I created a Azure subscription, opened up a new VM, used that VM as a honeypot, and forward those logs to a central location. Finally using that info to build a map analyzing real world attacks. This project is great for beginners and professionals looking to practice log analysis, threat dectection, and soc operations within a real world cloud.
+**Overview:** I created a basic home Soc from scratch. I created a Azure subscription, opened up a new VM, used that VM as a honeypot, and forward those logs to a central location. Finally using that info to build a map analyzing real world attacks. This project is great for beginners and professionals looking to practice log analysis, threat dectection, and soc operations within a real world cloud.
 
 **Tools used:**
 1) Azure VM
