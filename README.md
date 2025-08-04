@@ -11,14 +11,14 @@ Soc Analyst Project
 5) Nmap
 
 **Skills learned:**
-KQL Language
-Azure infrastructure
-Network Configuration
-Siem Intergration
-Log Ingestion
-Threat Simulation and Testing
-Threat Hunting and Dectection
-Workbook and Dashboard creation
+1)KQL Language
+2)Azure infrastructure
+3)Network Configuration
+4)Siem Intergration
+5)Log Ingestion
+6)Threat Simulation and Testing
+7)Threat Hunting and Dectection
+8)Workbook and Dashboard creation
 
 <h2>Step 1: Project Setup</h2>
 <b1>Open up a new in VM, you are able to set up a free trial or pay-as-you-go instance. If you choose pay-as-you-go keep it cheap we can use a bare bones VM and still complete our goal. In this case I went with Windows 10 Pro, Smallest Storage and Disk. You notice the monthly cost of leaving the VM on 24/7. Be mindful of shutting this off when you are done. You can configure you VM to shut off at midnight as a saftey precaution. Remember the username and password.</b1>
