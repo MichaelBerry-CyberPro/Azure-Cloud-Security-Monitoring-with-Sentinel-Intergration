@@ -39,7 +39,9 @@ Soc Analyst Project
 
 This is not necessary but I want to confirm that my port 3389 was open so ran a nmap scan to confirm that they were open and able to accept outside traffic.
 
-https://github.com/MichaelBerry-CyberPro/Azure-Cloud-Security-Monitoring-with-Sentinel-Intergration/blob/main/Nmap%20Scan%202.png?raw=true
+![image alt](https://github.com/MichaelBerry-CyberPro/Azure-Cloud-Security-Monitoring-with-Sentinel-Intergration/blob/main/Nmap%20Scan%202.png?raw=true)
+
+![image alt](https://github.com/MichaelBerry-CyberPro/Azure-Cloud-Security-Monitoring-with-Sentinel-Intergration/blob/main/Nmap%20scan1.png?raw=true)
 
 
 <b3>-Log into your VM using Remote Desktop (you will need the public IP) and you will remove all protection from the Windows Defender firewall. Again this is dangerous and should be handled with care. Open powershell on your personal computer and ping the VM Ip address to show that it can recieve data. After that log out of the Vm. Remember even though you are logged out the VM it is still running. Let it continue you to run, we need the data that will come from this.
