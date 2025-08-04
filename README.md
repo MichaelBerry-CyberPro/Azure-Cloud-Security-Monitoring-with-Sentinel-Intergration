@@ -69,4 +69,6 @@ Next we are going upload geographical data so that sentinel will create a visual
 <b5> Create a Workbook in the Sentinel app. Edit and remove the existing dashboards in place. We will run query, click on advanced editor and add the json file I have attached called map. Once you click done editing the new map will populate, be sure to save the map.
 ![image alt](https://github.com/MichaelBerry-CyberPro/Azure-Cloud-Security-Monitoring-with-Sentinel-Intergration/blob/8d8b336c0ba9818ea2b4e28bf36d4f52fcfa4cdf/Attack%20Map%20(new).jpeg)
 
+<h2>Project Topology</h2>
 
+![image alt](https://github.com/MichaelBerry-CyberPro/Azure-Cloud-Security-Monitoring-with-Sentinel-Intergration/blob/main/VM%20Topology.png?raw=true)
