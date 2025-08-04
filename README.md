@@ -45,7 +45,7 @@ Soc Analyst Project
 | project Account, IpAddress, EventID </b5> **(where you see the pipe that is a new line)**
 
 EventID 4625 will populate every failed log in attempt from any user attempting to log in including the VM Owner. Down below where my results: 
-![image alt}(https://github.com/MichaelBerry-CyberPro/Azure-Cloud-Security-Monitoring-with-Sentinel-Intergration/blob/8d8b336c0ba9818ea2b4e28bf36d4f52fcfa4cdf/Attack%20Map%20(new).jpeg)
+![image alt](https://github.com/MichaelBerry-CyberPro/Azure-Cloud-Security-Monitoring-with-Sentinel-Intergration/blob/8d8b336c0ba9818ea2b4e28bf36d4f52fcfa4cdf/Attack%20Map%20(new).jpeg)
 
 Next we are going upload geographical data so that sentinel will create a visualization for us. Through the Setinel app we are going to create a watchlist, provide a watchlist name and upload the Geolocation file I have attached. This process will take some time to upload about 30mins to complete.
 
