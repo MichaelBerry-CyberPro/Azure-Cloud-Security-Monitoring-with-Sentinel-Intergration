@@ -42,11 +42,15 @@ Soc Analyst Project
 
 <b5>SecurityEvent
 | where EventID == 4625
-| project Account, IpAddress, EventID</b5> **(where you see the pipe that is a new line)**
+| project Account, IpAddress, EventID </b5> **(where you see the pipe that is a new line)**
 
 EventID 4625 will populate every failed log in attempt from any user attempting to log in including the VM Owner. Down below where my results: 
 
 
-Next we are going upload geographical data so that sentinel will create a visualization for us.
+Next we are going upload geographical data so that sentinel will create a visualization for us. Through the Setinel app we are going to create a watchlist, provide a watchlist name and upload the Geolocation file I have attached. This process will take some time to upload about 30mins to complete.
+
+<h2> Step 5: Creating Attack Map Dashboard</h2>
+
+<b5> 
 
 
