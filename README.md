@@ -47,6 +47,6 @@ Soc Analyst Project
 EventID 4625 will populate every failed log in attempt from any user attempting to log in including the VM Owner. Down below where my results: 
 
 
-
+Next we are going upload geographical data so that sentinel will create a visualization for us.
 
 
