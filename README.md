@@ -31,9 +31,8 @@ Soc Analyst Project
 
 <h2>Step 2:Creating a Honey Pot (Azure Virtual Machine)</h2>
 <b2>-Once the VM is created, click on the VM through the Resource Group. You will need to verify that your public IP address was created alongside with the Network Security Group. In the event is was not you can create one and this will be how the attackers find our VM across the internet. Next steps are to open up the VM to world. This is **DANGEROUS** and should only be done to test applications or projects. Delete the first default rule, and set your inbound security rules to allow all traffic from any source. </b2> 
-<l1></l1>
 
--Log into your VM using Remote Desktop (you will need the public IP) and you will remove all protection from the Windows Defender firewall. Again this is dangerous and should be handled with care. Once that is complete, Open powershell and ping the Ipaddress to show that it can recieve data. After that log out of the Vm. ** Remember even though you are the logged out the VM it is still running. Let it continue you to run, we need the data that will come from this**. 
-
+<b3>-Log into your VM using Remote Desktop (you will need the public IP) and you will remove all protection from the Windows Defender firewall. Again this is dangerous and should be handled with care. Open powershell and ping the Ip address to show that it can recieve data.After that log out of the Vm. ** Remember even though you are the logged out the VM it is still running. Let it continue you to run, we need the data that will come from this**.</b3>
+ 
 <h2> Step 3: Forwarding Data and KQL</h2>
-<b3>You need to create an Log Analytics Workspace and a Sentinel Instance and connect the two together. If you cannot located these two use the search bar at the top of Azure portal. Add the "Windows Security Events via AMA" Connector. You need to also create DCR within sentinel, and watch for extension creation </b3>
+<b3>You need to create an Log Analytics Workspace and a Sentinel Instance and connect the two together. While creating these two be these are apart the the same resource group. If you cannot located these two, use the search bar at the top of Azure portal. For the sentinel instance install "Windows Security Events via AMA" Connector. You need to also create Data Collection Rules within sentinel, which fill funnel our event logs.</b3>
